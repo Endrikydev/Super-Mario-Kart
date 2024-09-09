@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Super Mario Kart</title>
+    </head>
+
+    <body>
+
+        <header class="mario-header">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="characters.html">Personagens</a></li>
+                        <li><a href="tracks.html">Pistas</a></li>
+                        <li><a href="tips.html">Dicas</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        
+
+        <h1>Super Mario Kart</h1>
+
+        <section class="pesquisa-box">
+            <input type="text" id="campo-pesquisa" placeholder="Digite o nome do personagem ou pista">
+            <button onclick="pesquisa()">Pesquisar</button>
+        </section>
+
+        <section class="resultado-pesquisa" id="resultado-pesquisa">
+
+        </section>
+
+        <img src="image/luigi.png"  class="image-luigi" id="imagem-luigi" alt="imagem em png do luigi">
+        <img src="image/mario.png" class="image-mario" id="imagem-mario" alt="imagem em png do mario">
+
+    </body>
+
+    <footer>
+        <p>2024 - Mario Kart(Nintendo) - Todos os direitos reservados</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</html>
